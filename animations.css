@@ -1,0 +1,11 @@
+@keyframes breathing { // fait gonfler puis dégonfler l'élément
+    0% {-ms-transform: scale(1); /* IE 9 */
+        -webkit-transform: scale(1); /* Safari */
+        transform: scale(1);}
+    25% {-ms-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);}
+    100% {-ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);}
+}
